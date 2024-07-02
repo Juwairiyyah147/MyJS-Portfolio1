@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/images.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,32 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Question Paper Management Application",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Question Paper Management Application is an Android app made for easy access to previous year question papers by students.",
+    Technologies_Used: " Python, Java, Flask, Android Studio.",
+    url: "https://github.com/cbitosc/SkillUp-Team-03.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "CBIT Binder - Book selling web application",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A user-friendly online bookstore project in which users can log-in or register, view the available books, select books along with their quantity and buy them.",
+    Technologies_Used: "Java, JDBC, Servlets,MySQL, HTML,CSS.",
+    url: "https://drive.google.com/file/d/1hGpT7VRkwPwYK3tanchFXGM6DGF6pppo/view?usp=share_link",
   },
   {
-    title: "My Resume Site",
+    title: "Detection and Prevention of Phishing attacks using classification models ",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A detection model based on Machine learning classification models that can categorise a URL into different types, showcasing if it is safe or not is proposed here.",
+    Technologies_Used:" Python involving all the basic concepts of feature engineering, model building, testing, and training.",
+    url: "https://colab.research.google.com/drive/1b5spuRW1svkjFf4f2olxqnLi9Tngq94t?usp=share_link",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "GitHub Repositories Listing Page ",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An Angular 14+ single-page application (SPA) that takes a GitHub username as input and displays the public GitHub repositories belonging to the user. It also provides a link to the said repositories.",
+    Technologies_Used: " Angular 14+ framework, Tailwind, TypeScript, HTML.",
+    url: "https://github.com/Juwairiyyah147/fyle-internship-challenge-23.git",
   },
 ];
 
@@ -64,7 +68,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>

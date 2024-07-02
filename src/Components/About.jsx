@@ -16,27 +16,28 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from '../images/images-2.jpeg';
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science Engineer with an excellent academic record and a keen interest and practical exposure in the field of Cyber Security, Software Engineering, Artificial Intelligence, and Database Management systems. ";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "Software development",
+  "Database Management ",
+  "Windows Application Development",
+  "Communication"
+
+ 
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate to work and develop in the field of Computer Science Engineering and to build a challenging career with honesty by translating my abilities and skills for personal and organizational betterment..";
 
 const About = () => {
   return (
@@ -53,7 +54,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#00BFFF",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
