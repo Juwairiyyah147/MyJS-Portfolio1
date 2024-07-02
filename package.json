@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://{Juwairiyyah147}.github.io/{MyJS-Portfolio1}",
+  "homepage": "http://Juwairiyyah147.github.io/MyJS-Portfolio1",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{Juwairiyyah147}.github.io/{MyJS-Portfolio1}'",
+    "build-gh": "parcel build --public-url 'https://Juwairiyyah147.github.io/MyJS-Portfolio1'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
